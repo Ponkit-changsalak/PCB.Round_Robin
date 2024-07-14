@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pcb {
+    padding: 20px;
+}
+
+.bt-con1 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.queue-con2 {
+    /* background-color: azure; */
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ready-queue {
+    /* background-color: beige; */
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.usb-queue {
+    /* background-color: azure; */
+    width: 50%;
+    height: auto;
+    padding: 5px;
+}
+
+.bt-usb {
+    padding: 20px;
+    text-align: end;
+}
+
+.status-running {
+    background-color: green;
+    /* Add any other styling as needed */
+}
